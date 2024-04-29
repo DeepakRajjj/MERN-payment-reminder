@@ -1,23 +1,3 @@
-// const express = require('express');
-// const app = express();
-// const bodyParser = require('body-parser');
-// const methodOverride = require('method-override');
-// const PDFDocument = require('pdfkit');
-// const nodemailer = require('nodemailer');
-// var cron = require('node-cron');
-// // Middleware to parse JSON-encoded bodies
-// app.use(bodyParser.json());
-// // Middleware to parse URL-encoded bodies
-// require('dotenv').config()
-// app.use(bodyParser.urlencoded({ extended: true }));
-// // app.use(express.static("../views"));
-// app.set('views', path.join(__dirname, 'views'));
-// // app.use(express.static("./payment-reminders"));
-// app.use(express.static(path.join(__dirname, 'public')));
-// app.set('view engine', 'ejs');
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(methodOverride('_method'));
-
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
